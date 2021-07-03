@@ -95,4 +95,3 @@ Now go to `meetbot/two.py` and uncomment the following:
 `# driver.set_window_size(1280, 1440)`
 
 This should set up your worker in background using headless mode.
->>>>>>> upload everything
