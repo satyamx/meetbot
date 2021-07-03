@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# meetbot
-=======
 # MeetBot — A Proxy Bot
 MeetBot is an easy-to-use user-friendly proxy bot who can act as your substitute and attend online meetings or classes hosted on Microsoft Teams.
 
