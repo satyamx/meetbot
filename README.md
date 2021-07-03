@@ -44,7 +44,7 @@ Note that you need to be in the first meetbot directory before running these scr
 
 You need to open two separate terminals and run `./server.sh` and `./worker.sh`
 
-![Components](https://github.com/satyamx/meetbot/blob/main/image.jpg?raw=true)
+![Components](https://raw.githubusercontent.com/satyamx/meetbot/main/images/components.png)
 
 ### Terminal 1
 
