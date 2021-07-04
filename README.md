@@ -26,7 +26,7 @@ The first step on Ubuntu/Debian is pretty straightforward.
 
 `./ubuntu.sh`
 
-Note that you need to be in the first meetbot directory before running these scripts as they are path dependent. Running `./meetbot/ubuntu.sh` will throw errors.
+Note that you need to be in the parent meetbot directory before running these scripts as they are path dependent. Running `./meetbot/ubuntu.sh` will throw errors.
 
 #### Other Linux distributions
 
@@ -38,7 +38,7 @@ Also install `python3`, `python3-pip`, `python3-venv` and `redis-server`.
 
 `./pip.sh`
 
-Note that you need to be in the first meetbot directory before running these scripts as they are path dependent. Running `./meetbot/pip.sh` will throw errors.
+Note that you need to be in the parent meetbot directory before running these scripts as they are path dependent. Running `./meetbot/pip.sh` will throw errors.
 
 ## Components and How To Use
 
@@ -58,7 +58,7 @@ Run `./worker.sh`  and do not close until all your tasks (lectures) have been ex
 
 - None of your data (user credentials and team names) is stored anywhere on cloud. Your data is stored locally on your computer at `meetbot/database.db` and only you can access it.
 
-- As stressed earlier, running `./meetbot/server.sh` or `./meetbot/worker.sh` will throw errors. You need to `cd` into the first meetbot directory using `cd meetbot` before running any of these scripts.
+- As stressed earlier, running `./meetbot/server.sh` or `./meetbot/worker.sh` will throw errors. You need to `cd` into the parent meetbot directory using `cd meetbot` before running any of these scripts.
 
 - You can send multiple tasks, but the worker executes the tasks on first come first serve basis. Make sure you send the task to attend an 8AM lecture before the task for 10AM and so on.
 
@@ -78,7 +78,7 @@ Install `supervisor` on your system.
 
 Ubuntu/Debian users can do so using `sudo apt-get install supervisor`
 
-Make sure you're in the first meetbot directory and run the following commands to set up Celery on Supervisor
+Make sure you're in the parent meetbot directory and run the following commands to set up Celery on Supervisor
 
 `meetbot=$(pwd)`
 
